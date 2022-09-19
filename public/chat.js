@@ -1,5 +1,5 @@
 // make a connection
-var socket = io.connect("http://localhost:4000");
+var socket = io.connect("https://rainbow-pastelito-bea001.netlify.app/");
 
 var message = document.getElementById("message");
     (handle = document.getElementById("handle")),
