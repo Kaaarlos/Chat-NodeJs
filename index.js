@@ -3,8 +3,8 @@ var socket  = require('socket.io');
 //App setup
 var app = express();
 
-var server = app.listen(4000,function(){
-    console.log("Listening to request on port 4000")
+var server = app.listen(process.env.PORT || 4000, () => {
+    console.log("Listening to request on port",process.env.PORT || 4000)
 });
 
 app.use(express.static('public'));
