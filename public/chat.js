@@ -1,5 +1,5 @@
 // make a connection
-var socket = io.connect("https://candid-beijinho-c5eee7.netlify.app/");
+var socket = io.connect("https://resilient-platypus-4dd630.netlify.app/");
 
 var message = document.getElementById("message");
     (handle = document.getElementById("handle")),
